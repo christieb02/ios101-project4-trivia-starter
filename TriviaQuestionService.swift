@@ -10,7 +10,7 @@ import Foundation
 class TriviaQuestionService {
     
     // Constants
-    private let triviaURLString = "https://opentdb.com/api.php?amount=6"
+    private let triviaURLString = "https://opentdb.com/api.php?amount=10"
     
     // Fetch Trivia Questions
     func fetchTriviaQuestions(completion: @escaping ([TriviaQuestion]?, Error?) -> Void) {
